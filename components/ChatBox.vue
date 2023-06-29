@@ -51,11 +51,11 @@ watch(
     </button>
     <div
       v-if="open"
-      class="box bg-gray-300 dark:bg-gray-800 rounded w-[450px] overflow-hidden"
+      class="box bg-gray-100 rounded w-[450px] overflow-hidden"
     >
       <!-- Header -->
       <header
-        class="dark:bg-gray-900 bg-gray-200 px-4 flex justify-between items-center"
+        class="bg-gray-200 px-4 flex justify-between items-center"
       >
         Customer Support Chat
         <button class="p-4 pr-0" @click="open = false">

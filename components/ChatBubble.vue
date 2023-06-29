@@ -28,7 +28,7 @@ defineProps<{
       }}</time>
     </div>
     <div
-      class="chat-bubble py-0 prose prose-sm bg-white dark:bg-gray-900 max-w-max w-full"
+      class="chat-bubble py-0 prose prose-sm bg-white max-w-max w-full"
     >
       <slot>
         <Markdown :source="message?.text" class="w-full" />
@@ -43,6 +43,6 @@ defineProps<{
   @apply overflow-x-auto w-full;
 }
 :deep(pre) {
-  @apply dark:bg-[rgba(0,0,0,.3)] overflow-x-auto w-full;
+  @apply overflow-x-auto w-full;
 }
 </style>
